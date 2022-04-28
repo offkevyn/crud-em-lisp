@@ -183,40 +183,55 @@
    #15Y(00 00 00 00 00 00 00 00 20 01 00 0F 00 19 01)
    (|COMMON-LISP-USER|::|LISTPESSOA|)
    (|COMMON-LISP|::|NIL| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
-#Y(#:|11 117 (DEFUN MAIN NIL ...)-4|
+#Y(#:|11 201 (DEFUN MAIN NIL ...)-4|
    #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
    (|COMMON-LISP-USER|::|MAIN| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
     #Y(|COMMON-LISP-USER|::|MAIN|
-       #647Y(00 00 00 00 00 00 00 00 26 01 38 01 31 97 38 01 31 97 DA 38 01 31
+       #972Y(00 00 00 00 00 00 00 00 26 01 38 01 31 97 38 01 31 97 DA 38 01 31
              90 38 01 31 97 DB 38 01 31 90 38 01 31 97 DC 38 01 31 90 38 01 31
              97 DD 38 01 31 90 38 01 31 97 DE 38 01 31 90 38 01 31 97 38 04 31
-             7F 0F 05 14 E0 90 01 2F 81 77 6B 05 F4 90 01 2F 82 08 6B 05 E0 90
-             01 32 08 6B 05 E0 91 01 31 FF A7 38 01 31 97 03 3F 14 38 01 31 90
-             38 01 31 97 1B FF 95 E5 38 01 31 90 38 01 31 97 E6 38 01 31 90 38
-             01 31 97 E7 38 01 31 90 38 01 31 97 E8 38 01 31 90 38 04 31 82 0F
-             0F EA 38 01 31 90 38 04 31 82 0F 11 EC 38 01 31 90 38 04 31 82 0F
-             13 EE 6B 0F EF 6B 11 F0 6B 13 2D 06 17 0F 18 14 0E 19 5D 0F 19 1B
-             80 FB F5 38 01 31 90 38 01 31 97 F6 38 01 31 90 38 01 31 97 F7 38
-             01 31 90 38 01 31 97 03 1E 0F 1F 38 01 31 97 65 20 38 01 31 90 6B
-             19 63 1B 24 03 30 1B 81 0D 03 32 1B 81 08 87 01 00 65 21 6B 22 6B
-             1F 65 23 B0 E0 72 43 33 03 15 6B 1F 32 B1 0F 1F 83 01 AD 8D 9F 62
-             16 02 38 01 31 97 65 24 38 01 31 90 38 01 31 97 65 25 38 01 31 90
-             38 01 31 97 38 04 31 7F 0F 26 14 8E AE 0A 6B 26 6B 19 72 62 91 01
-             34 14 65 27 38 01 31 90 38 01 31 97 65 28 38 01 31 90 38 01 31 97
-             6B 26 6B 19 31 A1 0F 23 38 01 31 97 38 01 31 97 65 29 38 01 31 90
-             38 01 31 97 65 2A 6B 22 6B 23 65 23 AD E0 81 43 00 33 02 15 65 2B
-             6B 22 6B 23 65 23 AD F4 81 43 00 33 02 15 65 2C 6B 22 6B 23 65 23
-             AD 65 2D 81 43 00 33 02 15 65 2E 38 01 31 90 38 01 31 97 38 01 31
-             97 65 2F 38 01 31 90 38 04 31 7F 38 01 31 97 E1 38 01 31 90 38 01
-             31 97 E2 38 01 31 90 2E 09 38 04 31 7F 0F 0A 14 E0 90 01 2F FE 91
-             6B 0A F4 90 01 2F FE DC 6B 0A 65 2D 90 01 2F FF 01 6B 0A 65 31 90
-             01 2F FE FD 6B 0A 65 33 91 01 2F 2B 03 34 14 38 01 31 90 1B FF B3
-             6B 05 E0 90 01 32 09 6B 05 65 35 91 01 31 FF A3 38 01 31 97 65 3A
-             38 01 31 90 38 01 31 97 1B FF 92 6B 0A 65 35 91 01 2F 57 65 36 38
-             01 31 90 38 01 31 97 65 37 38 01 31 90 38 01 31 97 65 38 38 01 31
-             90 38 01 31 97 03 39 1B FE 0D 65 3B 38 01 31 90 38 01 31 97 65 3C
-             38 01 31 90 38 01 31 97 65 3D 38 01 31 90 38 01 31 97 65 3E 38 01
-             31 90 38 01 31 97 00 19 01)
+             7F 0F 05 14 E0 90 01 2F 82 C8 6B 05 F4 90 01 2F 83 4D 6B 05 E0 90
+             01 32 08 6B 05 E0 91 01 31 FF A7 38 01 31 97 03 50 14 38 01 31 90
+             38 01 31 97 1B FF 95 6B 18 0E 19 5D 0F 19 1B 82 95 E5 38 01 31 90
+             38 01 31 97 E6 38 01 31 90 38 01 31 97 E7 38 01 31 90 38 01 31 97
+             E8 38 01 31 90 38 04 31 82 0F 0F EA 38 01 31 90 38 04 31 82 0F 11
+             EC 38 01 31 90 38 04 31 82 0F 13 EE 6B 0F EF 6B 11 F0 6B 13 2D 06
+             17 0F 18 6B 19 72 62 8E AC FF A4 6B 18 6B 19 38 01 71 A9 95 00 AD
+             AF 9F 7A 31 B8 16 03 1B 82 2E 38 01 31 97 38 01 31 97 65 20 38 01
+             31 90 38 01 31 97 03 21 1B 82 79 F5 38 01 31 90 38 01 31 97 F6 38
+             01 31 90 38 01 31 97 F7 38 01 31 90 38 01 31 97 2E 1E 38 04 31 7F
+             0F 1F 14 8E AE 42 6B 1F 6B 19 72 62 90 01 34 FF B7 6B 1F 2F 22 65
+             23 38 01 31 90 38 04 31 83 0F 24 14 65 25 91 01 08 FF B6 6B 24 65
+             26 91 01 08 FF AD 1B 81 C1 38 01 31 97 38 01 31 97 65 2B 38 01 31
+             90 38 01 31 97 03 2C 1B 82 0C 65 28 38 01 31 90 38 01 31 97 65 29
+             38 01 31 90 38 01 31 97 65 2A 38 01 31 90 38 01 31 97 2E 1E 38 04
+             31 7F 0F 1F 14 8E AE FF BE 6B 1F 6B 19 72 62 90 01 34 FF B3 6B 1F
+             2F 22 65 2D 38 01 31 90 38 04 31 83 0F 2E 14 65 25 90 01 07 09 6B
+             2E 65 26 91 01 07 81 54 6B 1F 6B 19 31 A1 0F 2F 38 01 31 88 65 30
+             38 01 31 90 38 04 31 82 0F 0F 65 31 38 01 31 90 38 04 31 82 0F 11
+             65 32 38 01 31 90 38 04 31 82 0F 13 6B 2F 6B 0F 65 2F AE E0 AF 32
+             44 16 02 6B 2F 6B 11 65 2F AE F4 AF 32 44 16 02 6B 2F 6B 13 65 2F
+             AE 65 27 AF 32 44 16 02 38 01 31 97 03 33 1B 81 55 38 01 31 97 38
+             01 31 97 65 38 38 01 31 90 38 01 31 97 03 39 1B 81 3E 65 35 38 01
+             31 90 38 01 31 97 65 36 38 01 31 90 38 01 31 97 65 37 38 01 31 90
+             38 01 31 97 2E 1E 38 04 31 7F 0F 1F 14 8E AE FF BE 6B 1F 6B 19 72
+             62 90 01 34 FF B3 6B 1F 2F 22 65 3A 38 01 31 90 38 04 31 83 0F 2E
+             14 65 25 90 01 07 09 6B 2E 65 26 91 01 07 80 86 6B 1F 6B 19 31 A1
+             0F 2F 14 6B 19 38 07 32 6C 38 01 31 97 03 3B 1B 80 D0 65 3D 38 01
+             31 90 38 01 31 97 65 3E 38 01 31 90 38 01 31 97 65 3F 38 01 31 90
+             38 01 31 97 65 40 38 01 31 90 38 01 31 97 6B 19 63 1B 37 87 01 00
+             65 41 6B 42 65 2F AF E0 72 43 33 02 15 65 43 6B 42 65 2F AF F4 72
+             43 33 02 15 65 44 6B 42 65 2F AF 65 27 72 43 33 02 15 65 45 38 01
+             31 90 38 01 31 97 83 01 AD 8D 9F 45 16 02 38 01 31 97 38 01 31 97
+             E1 38 01 31 90 38 01 31 97 E2 38 01 31 90 2E 09 38 04 31 7F 0F 0A
+             14 E0 90 01 2F FD 4A 6B 0A F4 90 01 2F FD C0 6B 0A 65 27 90 01 2F
+             FE 24 6B 0A 65 34 90 01 2F FE E9 6B 0A 65 3C 90 01 2F FF 4E 6B 0A
+             65 46 90 01 2F 1E 6B 05 E0 90 01 32 09 6B 05 65 46 91 01 31 FF A4
+             38 01 31 97 03 4B 14 38 01 31 90 1B FF 92 65 47 38 01 31 90 38 01
+             31 97 65 48 38 01 31 90 38 01 31 97 65 49 38 01 31 90 38 01 31 97
+             03 4A 1B FC C8 65 4C 38 01 31 90 38 01 31 97 65 4D 38 01 31 90 38
+             01 31 97 65 4E 38 01 31 90 38 01 31 97 65 4F 38 01 31 90 38 01 31
+             97 00 19 01)
        ("==============" "--------------" "1.. Pessoa" "2.. Sair"
         "Escolha uma opção acima: " |COMMON-LISP-USER|::|OPCRUD| 1.
         "--------------" "=== PESSOA ===" |COMMON-LISP-USER|::|SELECTOPTION|
@@ -225,49 +240,48 @@
         |COMMON-LISP-USER|::|TEL| "Endereço: " |COMMON-LISP-USER|::|ENDE|
         :|NOME| :|TELEFONE| :|ENDERECO| |COMMON-LISP-USER|::|MAKE-PESSOA|
         |COMMON-LISP-USER|::|PESSO| |COMMON-LISP-USER|::|LISTPESSOA| 2.
-        "---------------" "   CONSULTAR   " "---------------" 0.
-        |COMMON-LISP-USER|::|INDEX| "-----------------------------"
+        "---------------" "   CONSULTAR   " "---------------"
+        |COMMON-LISP-USER|::|LISTARPESSOAS| |COMMON-LISP-USER|::|IDESCOLHIDO|
+        "ERROR!!! Opção INVÁLIDA!!" "ERROR!!! ID não encontrado!!"
+        |COMMON-LISP-USER|::|DETALHEPESSOA|
+        "Deseja fazer outra consulta? (S/N) " |COMMON-LISP-USER|::|NOVACONSUL|
+        #\s #\S 3. "---------------" "   ATUALIZAR   " "---------------"
+        "ERROR!!! Opção INVÁLIDA!!" "ERROR!!! ID não encontrado!!"
+        "Tem certeza que deseja alterar ? (S/N) " |COMMON-LISP-USER|::|CONFIRM|
+        |COMMON-LISP-USER|::|PESSOA| "Nome: " "Telefone: " "Endereço: "
+        "Alterado com SUCESSO!!!" 4. "---------------" "    DELETAR    "
+        "---------------" "ERROR!!! Opção INVÁLIDA!!"
+        "ERROR!!! ID não encontrado!!"
+        "Tem certeza que deseja deletar ? (S/N) " "Deletado com SUCESSO!!!" 5.
+        "---------------" "  LISTA TODOS  " "---------------"
+        "============================="
         #Y(|COMMON-LISP-USER|::|MAIN-1|
-           #43Y(00 00 00 00 03 00 00 00 21 19 00 10 00 DB B4 38 02 31 95 B3 01
-                06 B9 2D 08 02 DD B4 38 02 31 95 B3 01 06 B8 2D 08 02 A1 11 19
-                05)
-           (|SYSTEM|::|*FORMAT-CS*|
-            "\n
- ID: "
-            |SYSTEM|::|DO-FORMAT-DECIMAL| ".... Nome: ")
-           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
-        |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|PESSOA|
-        "-----------------------------" "Escolha o ID: "
-        |COMMON-LISP-USER|::|IDESCOLHIDO| "ERROR!!! Opção INVÁLIDA!!"
-        "ERROR!!! ID não encontrado!!" "============================="
-        #Y(|COMMON-LISP-USER|::|MAIN-2|
            #36Y(00 00 00 00 02 00 00 00 21 18 00 10 00 DB B3 38 02 31 95 B2 01
                 06 B8 2D 08 02 DD B3 38 02 31 95 A1 11 19 04)
            (|SYSTEM|::|*FORMAT-CS*| "Nome: " |SYSTEM|::|DO-FORMAT-DECIMAL|
             " \n")
            (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
-        #Y(|COMMON-LISP-USER|::|MAIN-3|
+        |COMMON-LISP|::|*STANDARD-OUTPUT*|
+        #Y(|COMMON-LISP-USER|::|MAIN-2|
            #36Y(00 00 00 00 02 00 00 00 21 18 00 10 00 DB B3 38 02 31 95 B2 01
                 06 B8 2D 08 02 DD B3 38 02 31 95 A1 11 19 04)
            (|SYSTEM|::|*FORMAT-CS*| "Telefone: " |SYSTEM|::|DO-FORMAT-DECIMAL|
             " \n")
            (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
-        #Y(|COMMON-LISP-USER|::|MAIN-4|
+        #Y(|COMMON-LISP-USER|::|MAIN-3|
            #36Y(00 00 00 00 02 00 00 00 21 18 00 10 00 DB B3 38 02 31 95 B2 01
                 06 B8 2D 08 02 DD B3 38 02 31 95 A1 11 19 04)
            (|SYSTEM|::|*FORMAT-CS*| "Endereço: " |SYSTEM|::|DO-FORMAT-DECIMAL|
             " \n")
            (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
-        3. "============================="
-        "Pressione qualquer tecla para continuar" "ATUALIZAR" 4. "DELETAR" 5.
-        "LISTA TODOS" 6. "--------------" "     SAIR     " "--------------"
-        "Saindo........" "ERROR!!! Opção INVÁLIDA!!" "--------------"
-        "     SAIR     " "--------------" "Saindo........"
+        "=============================" 6. "--------------" "     SAIR     "
+        "--------------" "Saindo........" "ERROR!!! Opção INVÁLIDA!!"
+        "--------------" "     SAIR     " "--------------" "Saindo........"
         "ERROR!!! Opção INVÁLIDA!!")
        (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
        |COMMON-LISP|::|NIL| 1))
    (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
-#Y(#:|119 129 (DEFUN SELECTOPTION NIL ...)-5|
+#Y(#:|203 213 (DEFUN SELECTOPTION NIL ...)-5|
    #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
    (|COMMON-LISP-USER|::|SELECTOPTION| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
     #Y(|COMMON-LISP-USER|::|SELECTOPTION|
@@ -280,4 +294,63 @@
         "Escolha uma opção acima: ")
        (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
        |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|215 226 (DEFUN LISTARPESSOAS NIL ...)-6|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|LISTARPESSOAS| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|LISTARPESSOAS|
+       #77Y(00 00 00 00 00 00 00 00 26 01 C5 0F 01 38 01 31 97 DC 38 01 31 90
+            6B 03 63 1B 18 87 01 00 DE 6B 05 6B 01 E0 B0 E1 72 43 33 03 15 6B
+            01 32 B1 0F 01 83 01 AD 8D 9F 64 16 02 38 01 31 97 E2 38 01 31 90
+            38 01 31 97 E3 38 01 31 90 19 01)
+       (0. |COMMON-LISP-USER|::|INDEX| "-----------------------------"
+        |COMMON-LISP-USER|::|LISTPESSOA|
+        #Y(|COMMON-LISP-USER|::|LISTARPESSOAS-1|
+           #43Y(00 00 00 00 03 00 00 00 21 19 00 10 00 DB B4 38 02 31 95 B3 01
+                06 B9 2D 08 02 DD B4 38 02 31 95 B3 01 06 B8 2D 08 02 A1 11 19
+                05)
+           (|SYSTEM|::|*FORMAT-CS*|
+            "\n
+ ID: "
+            |SYSTEM|::|DO-FORMAT-DECIMAL| ".... Nome: ")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|PESSOA| 1.
+        "-----------------------------" "Escolha o ID: ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|228 238 (DEFUN DETALHEPESSOA (ID) ...)-7|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|DETALHEPESSOA| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|DETALHEPESSOA|
+       #91Y(00 00 00 00 01 00 00 00 26 02 AD 6B 00 31 A1 0F 01 38 01 31 97 38
+            01 31 97 DC 38 01 31 90 38 01 31 97 DD 6B 04 6B 01 DB AD DF 81 43
+            00 33 02 15 E0 6B 04 6B 01 DB AD E1 81 43 00 33 02 15 E2 6B 04 6B
+            01 DB AD E3 81 43 00 33 02 15 E4 38 01 31 90 38 01 31 97 38 01 31
+            97 19 02)
+       (|COMMON-LISP-USER|::|LISTPESSOA| |COMMON-LISP-USER|::|PESSOA|
+        "============================="
+        #Y(|COMMON-LISP-USER|::|DETALHEPESSOA-1|
+           #36Y(00 00 00 00 02 00 00 00 21 18 00 10 00 DB B3 38 02 31 95 B2 01
+                06 B8 2D 08 02 DD B3 38 02 31 95 A1 11 19 04)
+           (|SYSTEM|::|*FORMAT-CS*| "Nome: " |SYSTEM|::|DO-FORMAT-DECIMAL|
+            " \n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        |COMMON-LISP|::|*STANDARD-OUTPUT*| 1.
+        #Y(|COMMON-LISP-USER|::|DETALHEPESSOA-2|
+           #36Y(00 00 00 00 02 00 00 00 21 18 00 10 00 DB B3 38 02 31 95 B2 01
+                06 B8 2D 08 02 DD B3 38 02 31 95 A1 11 19 04)
+           (|SYSTEM|::|*FORMAT-CS*| "Telefone: " |SYSTEM|::|DO-FORMAT-DECIMAL|
+            " \n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        2.
+        #Y(|COMMON-LISP-USER|::|DETALHEPESSOA-3|
+           #36Y(00 00 00 00 02 00 00 00 21 18 00 10 00 DB B3 38 02 31 95 B2 01
+                06 B8 2D 08 02 DD B3 38 02 31 95 A1 11 19 04)
+           (|SYSTEM|::|*FORMAT-CS*| "Endereço: " |SYSTEM|::|DO-FORMAT-DECIMAL|
+            " \n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        3. "=============================")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)
+       (|COMMON-LISP-USER|::|ID|) |COMMON-LISP|::|NIL| 1))
    (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))

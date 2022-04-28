@@ -52,7 +52,7 @@
                             (push pesso (cdr (last listPessoa)))
                         )
                     )
-                    ((= opPess 2) 
+                    ((and (= opPess 2) (> (length listPessoa) 0)) 
 
                         (loop
 
@@ -79,7 +79,7 @@
                             )
                         )
                     )
-                    ((= opPess 3) 
+                    ((and (= opPess 3) (> (length listPessoa) 0)) 
                         (loop
 
                             (princ "---------------") (terpri)
@@ -123,7 +123,7 @@
                             (return)
                         )
                     )
-                    ((= opPess 4)   
+                    ((and (= opPess 4) (> (length listPessoa) 0))   
                         (loop
                             (princ "---------------") (terpri)
                             (princ "    DELETAR    ") (terpri)
@@ -146,7 +146,10 @@
                             (when (or (char= confirm #\s) (char= confirm #\S))
                                 (setq pessoa (nth idEscolhido listPessoa))
                                 
-                                (delete pessoa listPessoa)
+                                (if (= idEscolhido 0)
+                                    (pop listPessoa)
+                                    (delete pessoa listPessoa)
+                                )
 
                                 (terpri)
                                 (princ "Deletado com SUCESSO!!!")
@@ -157,8 +160,19 @@
                         )
 
                     )
-                    ((= opPess 5) 
-                        (princ "LISTA TODOS")
+                    ((and (= opPess 5) (> (length listPessoa) 0)) 
+                        (princ "---------------") (terpri)
+                        (princ "  LISTA TODOS  ") (terpri)
+                        (princ "---------------") (terpri)
+
+                        (princ "=============================")(terpri)
+                        (dolist (i listPessoa)
+                            (format t "Nome: ~d ~%" (Pessoa-nome i))
+                            (format t "Telefone: ~d ~%" (Pessoa-telefone i))
+                            (format t "Endereço: ~d ~%" (Pessoa-endereco i))
+                            (princ "=============================")(terpri)
+                        )
+                        (terpri)
                     )
                     ((= opPess 6) 
                         (princ "--------------") (terpri)
@@ -167,9 +181,13 @@
                         (princ "Saindo........") (terpri)
                         (return)
                     )
-                    ((or (> opCrud 1) (< opCrud 6)) 
+                    ((or (< opPess 1) (> opPess 6)) 
                         (terpri)                    
                         (princ "ERROR!!! Opção INVÁLIDA!!") (terpri)
+                    )
+                    ((<= (length listPessoa) 0)
+                        (terpri)                    
+                        (princ "ERROR!!! A lista está vazia!!") (terpri)
                     )
                 )
             )
